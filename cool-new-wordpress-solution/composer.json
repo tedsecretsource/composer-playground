@@ -1,0 +1,17 @@
+{
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url" : "http://wpdev.loc/"
+        }
+    ],
+    "config": {
+      "preferred-install": "source",
+      "secure-http": false
+    },
+    "require": {
+        "secret-source/informa-tools": "dev-dev",
+        "composer/installers": "v1.0.6"
+    }
+}
